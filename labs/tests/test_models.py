@@ -1,4 +1,5 @@
 import pytest
+
 from lab.models import (Indicator, IndicatorMetric, Lab, Metric, Reference,
                         Score, Test)
 

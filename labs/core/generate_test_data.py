@@ -1,16 +1,11 @@
 import os
-import django
 import random
+
+import django
 from faker import Faker
-from lab.models import (
-    Lab,
-    Test,
-    Indicator,
-    Metric,
-    IndicatorMetric,
-    Score,
-    Reference,
-)
+
+from lab.models import (Indicator, IndicatorMetric, Lab, Metric, Reference,
+                        Score, Test)
 
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "labs.settings")
 django.setup()

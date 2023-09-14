@@ -1,5 +1,6 @@
 from rest_framework import serializers
-from lab.models import Lab, Test, Indicator, Metric, Score, Reference
+
+from lab.models import Indicator, Lab, Metric, Reference, Score, Test
 
 
 class LabSerializer(serializers.ModelSerializer):

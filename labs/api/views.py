@@ -1,13 +1,9 @@
 from rest_framework import generics
-from lab.models import Lab, Test, Indicator, Metric, Score, Reference
-from .serializers import (
-    LabSerializer,
-    TestSerializer,
-    IndicatorSerializer,
-    MetricSerializer,
-    ScoreSerializer,
-    ReferenceSerializer,
-)
+
+from lab.models import Indicator, Lab, Metric, Reference, Score, Test
+
+from .serializers import (IndicatorSerializer, LabSerializer, MetricSerializer,
+                          ReferenceSerializer, ScoreSerializer, TestSerializer)
 
 
 class LabListCreateView(generics.ListCreateAPIView):

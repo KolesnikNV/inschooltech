@@ -1,11 +1,12 @@
 from django.contrib.auth.models import User
 from django.test import TestCase
 from django.urls import reverse
-from lab.models import (Indicator, IndicatorMetric, Lab, Metric, Reference,
-                        Score, Test)
 from rest_framework import status
 from rest_framework.authtoken.models import Token
 from rest_framework.test import APIClient
+
+from lab.models import (Indicator, IndicatorMetric, Lab, Metric, Reference,
+                        Score, Test)
 
 
 class LabListCreateViewTest(TestCase):
