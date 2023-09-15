@@ -12,17 +12,13 @@
 
 ```python manage.py migrate```
 
-4. Создайте суперпользователя:
-
-```python manage.py createsuperuser```
-
-5. Запустите сервер:
+4. Запустите сервер:
 
 ```python manage.py runserver```
 
 Теперь ваш проект должен быть доступен по адресу http://localhost:8000/.
 
-6. Или проект можно запустить через Docker используя ```docker-compose up -d```
+5. Или проект можно запустить через Docker используя ```docker-compose up -d```
 
 ### API Endpoints
 
