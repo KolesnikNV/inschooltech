@@ -2,7 +2,7 @@
 name = "inschooltech"
 version = "0.1.0"
 description = ""
-authors = ["Nikita Kolesnik <118283668+KolesnikNV@users.noreply.github.com>"]
+authors = ["Nikita Kolesnik"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
