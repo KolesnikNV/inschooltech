@@ -16,7 +16,7 @@ services:
       - network
 
   db:
-    image: postgres:13
+    image: postgres:15
     environment:
       POSTGRES_DB: ${DB_NAME}
       POSTGRES_USER: ${DB_USER}
